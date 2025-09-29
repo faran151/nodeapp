@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('My First Containerized Node App');
+  res.send('App on Azure ');
 });
 
 app.listen(PORT, HOST, () => {
